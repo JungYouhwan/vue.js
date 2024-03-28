@@ -12,12 +12,14 @@ let template = `
        text="Testing"/>
     <img v-bind:src="fileName">
     <a v-bind:href="url">링크</a>
+    
     <!-- bind 디렉티브 - style -->
      <p style="color : blue;">문자색 직접 지정</p>
      <p v-bind:style="{ color : myColor }">vue 방식</p>
      <p style="color : blue; font-size : 200%;"> 두가지 속성을 직접 지정</p>
      <p v-bind:style="{ color : myColor, fontSize : myFont }">vue 방식</p>
      <p v-bind:style="myStyle">vue 방식</p>
+     
      <!-- bind 디렉티브 - class -->
      <p class="emphasis" >직접 강조</p>
      <p v-bind:class="myClass">Vue 활용 강조 </p>

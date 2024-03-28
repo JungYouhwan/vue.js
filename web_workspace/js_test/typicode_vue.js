@@ -22,6 +22,7 @@ let template =`
             </tr>
         </tbody>
     </table>
+    
 </div>
 `;
 // createApp 부터는 vue

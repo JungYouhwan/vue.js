@@ -6,6 +6,8 @@ import modelComponent from './exam01.js';
 import listComponent from './list.js';
 import exam02 from './exam02.js';
 import ifComponent from './if.js';
+import eventComponent from './event.js';
+import watchComponent from './watch.js';
 const { createApp } = Vue
 
 const template =`
@@ -16,7 +18,9 @@ const template =`
     <!--<modelComponent/>-->
     <!--<listComponent />-->
     <!--<exam02 /> -->
-    <ifComponent />
+    <!-- <ifComponent /> -->
+    <!--<eventComponent /> -->
+    <watchComponent />
 </div>
 `;
  // 'raw-component' : RawComponent
@@ -28,7 +32,9 @@ createApp({
         modelComponent,
         listComponent,
         exam02,
-        ifComponent
+        ifComponent,
+        eventComponent,
+        watchComponent
     }
 })
 .mount('#app');
